@@ -1,0 +1,20 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "bot assistant",
+  "main": "telegramBot.js",
+  "scripts": {
+    "server": "nodemon telegramBot.js",
+    "start": "node telegramBot.js"
+  },
+  "author": "mr.Hatter",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
